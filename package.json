@@ -1,0 +1,21 @@
+{
+  "name": "insta",
+  "version": "1.0.0",
+  "description": "to explore instagram api, es6, Hapi",
+  "main": "server.js",
+  "repository": "https://github.com/ashok-explore/hapi-insta.git",
+  "author": "me",
+  "license": "MIT",
+  "scripts":{
+      "start":"nodemon server.js"
+  },
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0",
+    "hapi": "^16.1.0",
+    "nodemon": "^1.11.0"
+  }
+}
