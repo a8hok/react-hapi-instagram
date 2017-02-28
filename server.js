@@ -1,22 +1,34 @@
+'use strict';
+
 // Module dependency.
-const Hapi = require( 'hapi' );
+const Hapi = require('hapi');
 
 // Configuration settings.
-const config = require( './config.js' );
+const config = require('./server/config.js');
 
+// Server connections.
 const server = new Hapi.Server();
+server.connection({
+    port: config.PORT,
+    host: config.HOST,
+    routes: { cors: true } 
+});
 
-// server connection.
-server.connection( { 
-	port: config.port, 
-	host: config.host 
-} );
+// Routing files.
+const routesHandler = require('./server/routes/routes.js');
+server.route({
+    method: 'GET',
+    path: '/login/{user}',
+    handler: routesHandler.getInstaSelfUserDeatils,
+});
+
+
 
 // start Hapi server.
-server.start( (err) => {
+server.start((err) => {
 
     if (err) {
         throw err;
     }
     console.log(`Server running at: ${server.info.uri}`);
-} );
+});

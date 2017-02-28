@@ -6,10 +6,11 @@
   "repository": "https://github.com/ashok-explore/hapi-insta.git",
   "author": "me",
   "license": "MIT",
-  "scripts":{
-      "start":"nodemon server.js"
+  "scripts": {
+    "start": "nodemon server.js"
   },
   "devDependencies": {
+    "async": "^2.1.5",
     "eslint": "^3.15.0",
     "eslint-config-airbnb": "^14.1.0",
     "eslint-plugin-import": "^2.2.0",
@@ -17,5 +18,8 @@
     "eslint-plugin-react": "^6.10.0",
     "hapi": "^16.1.0",
     "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "request": "^2.79.0"
   }
 }
