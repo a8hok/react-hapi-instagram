@@ -16,7 +16,7 @@ INSTA_DETAILS.CLIENT_ID = '***************************';
 
 Clone repo: https://github.com/ashok-explore/react-hapi-instagram.git
 
-open terminal again
+open terminal 
 cd react-hapi-instagram
 npm install
 npm start
