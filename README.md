@@ -1,31 +1,31 @@
 
-Insatgram Api explore using ReactJS+Hapi
+Insatgram Api integration using ReactJS and HapiJS
 ----------------------------------------
 
-Create your account in Instagram to explore Insta Api.
+Create your account in Instagram to explore Insta Api. <br/>
 
-https://www.instagram.com/developer/
+https://www.instagram.com/developer/ <br/>
 
-Generate your token and client Id through instagram Account
+Generate your token and client Id through instagram Account <br/>
 
-Get your token and replace with server/core/CONSTANT.js file
+Get your token and replace with server/core/CONSTANT.js file <br/>
 
-INSTA_DETAILS.URL = '***************************'; 
-INSTA_DETAILS.ACCESS_TOKEN = '************************'; 
-INSTA_DETAILS.CLIENT_ID = '***************************';
+INSTA_DETAILS.URL = '***************************'; <br/>
+INSTA_DETAILS.ACCESS_TOKEN = '************************'; <br/>
+INSTA_DETAILS.CLIENT_ID = '***************************';<br/>
 
-Clone repo: https://github.com/ashok-explore/react-hapi-instagram.git
+Clone repo: https://github.com/ashok-explore/react-hapi-instagram.git <br/>
 
-open terminal 
-cd react-hapi-instagram
-npm install
-npm start
+open terminal <br/>
+cd react-hapi-instagram<br/>
+npm install<br/>
+npm start<br/>
 
-Hapi server listening in : http://localhost:3000
+Hapi server listening in : http://localhost:3000<br/>
 
-cd react-hapi-instagram
-cd client
-npm install
-npm start
+cd react-hapi-instagram<br/>
+cd client<br/>
+npm install<br/>
+npm start<br/>
 
 Front end listening in : http://localhost:8080
